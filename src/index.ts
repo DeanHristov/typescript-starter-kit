@@ -1,2 +1,2 @@
 // eslint-disable-next-line no-console
-console.log("Hello world! + 1");
+console.log("Let us do some code");
