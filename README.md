@@ -37,8 +37,8 @@ functionality is grouped primarily by feature rather than the file type.
 │       └── *.js
 ├── src                             # Application source code is stored here.
 │   ├── [dir-name]                  # Sub directory that contains files (in Typescript) format.
-│       └── [filename].ts            
-│   ├── [filename].ts                
+│       └── [filename].ts
+│   ├── [filename].ts
 │   ├── index.ts                    # The entry point of the app.
 ├── .env                            # App-related ENV variables are stored here. MUST be created manually!
 ├── .env.example                    # A template which contains important variables for the app.
@@ -59,12 +59,12 @@ functionality is grouped primarily by feature rather than the file type.
 All tasks automation are based on [NPM scripts](https://docs.npmjs.com/misc/scripts).
 
 | Tasks                     | Description                                           |
-|---------------------------|-------------------------------------------------------|
+| ------------------------- | ----------------------------------------------------- |
 | `npm run start:dev`       | Running the app in **dev** mode                       |
 | `npm run build`           | Building the code in **production-ready** mode        |
 | `npm run start`           | Running the app in **prod** mode                      |
 | `npm run test`            | Running the unit tests ( using jest)                  |
-| `npm run test:dev`        | Running the unit with `--watchAll` mode ( using jest) |
+| `npm run test:watch`      | Running the unit with `--watchAll` mode ( using jest) |
 | `npm run prettier-format` | Code formatting                                       |
 
 ## Running the Project
@@ -111,4 +111,4 @@ $ npm start
 
 ## Made by
 
-Author: [D. Hristov](https://dhristov.eu/) | Version: v1.0.0 
+Author: [D. Hristov](https://dhristov.eu/) | Version: v1.0.0
